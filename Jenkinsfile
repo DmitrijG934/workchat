@@ -1,6 +1,3 @@
-#!groovy
-properties([disableConcurrentBuilds()])
-
 pipeline {
 	agent {
 		label 'dgordeev-vm-2-slave'
