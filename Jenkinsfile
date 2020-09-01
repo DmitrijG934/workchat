@@ -3,7 +3,7 @@ properties([disableConcurrentBuilds()])
 
 pipeline {
 	agent {
-		label 'master'
+		label 'dgordeev-vm-2-slave'
 	}
 	options {
 		timestamps()
